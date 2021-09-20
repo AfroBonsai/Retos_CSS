@@ -1,0 +1,27 @@
+
+#cabecera, .equipo {
+    text-transform: uppercase;
+}
+
+table {
+    border: thin solid cornflowerblue;
+    box-shadow: inset -3px -3px 2px rgb(95, 148, 95);
+    /* NO CONSIGO QUITAR LOS ESPACIOS QUE HAY ENTRE LAS CELDAS */
+}
+
+#cabecera {
+    background-color: darkgreen;
+    text-align: center;
+}
+
+tr {
+    background-color: rgb(124, 207, 124);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(199, 252, 199);
+}
+ 
+th, td {
+    border: 2px solid cornflowerblue;
+}

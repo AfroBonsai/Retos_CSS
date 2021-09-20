@@ -1,0 +1,59 @@
+body {
+    margin: 0 0 0 0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+
+#cabecera, .equipo {
+    text-transform: uppercase;
+}
+
+table {
+    border: thin solid cornflowerblue;
+    box-shadow: inset -3px -3px 2px rgb(95, 148, 95);
+    width: 90%;
+    position:sticky;
+    top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cabecera {
+    background-color: darkgreen;
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+    font-weight: bold;
+}
+
+th, td {
+    border: 2px solid cornflowerblue;
+}
+
+#celda1 {
+    background-color: greenyellow;
+}
+#celda2 {
+    background-color: cyan;
+    text-align: left;
+}
+#celda3, #celda5, #celda8 {
+    color:red
+}
+#celda4 {
+    
+}
+#celda6 {
+    background-color: rgb(253, 163, 193);
+    text-align: right;
+    vertical-align: bottom;
+}
+#celda7 {
+    
+}
+
